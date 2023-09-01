@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: #392f2f;
+    color: beige;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    color: #392f2f;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+.instrucciones{
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+.marcador{
+    background-color: #ff7e67;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #392f2f;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+.marcador .nombre{
+    position: absolute;
+    color: beige;
+    background-color: #392f2f;
+    line-height: 1;
+    padding: .5rem;
+    border-radius: .5rem;
+    border: 2px solid #ff7e67;
+}
+.marcador .nombre-jugador{
+    right: 85%;
+}
+.marcador .nombre-computadora{
+    left: 85%;
+}
+.marcador .puntos{
+    font-size: 1.6rem;
+}
+.elegi-tu-arma{
+    margin-bottom: 2rem;
+}
+.elegi-tu-arma h2{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+.armas{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.arma{
+    font-size: 2rem;
+    background-color: beige;
+    border: 0;
+    padding: .5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+.mensaje{
+    margin-bottom: 2rem;
+    line-height: 1.8;
+    font-size: 1.2rem;
+}
+.mensaje .eleccion{
+    color: #392f2f;
+    background-color: #ff7e67;
+    border-radius: .25rem;
+    padding-inline: .25rem;
+}
+.btn{
+    border: 0;
+    line-height: 1;
+    background-color: beige;
+    color: #392f2f;
+    font-size: 1.5rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.disabled{
+    display: none;
+}
